@@ -1,0 +1,56 @@
+body{
+    background-color: #00ffff;
+}
+
+
+h1 {
+    color: #a52a2a;
+    border : solid  ;
+    padding: 1px;
+}
+
+.NameOfYourChoice{
+ background-color:#525eca;
+ display:flex;
+ justify-content:space-between;
+}
+
+.rickrollTime{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hello a{
+    padding-left: 20px;
+}
+
+a:link{
+    color:rgb(255, 145, 0);
+}
+
+a:visited{
+    color: crimson;
+}
+
+.child{
+    position: relative;
+}
+
+.child p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.child:hover p{
+    opacity:1
+}
+
+
+.child:hover img{
+   transform: scale(1.2);
+}
+
